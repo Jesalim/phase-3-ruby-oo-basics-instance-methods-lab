@@ -1,0 +1,26 @@
+# class Dog
+# end
+
+# fido = Dog.new
+
+# fido.object_id
+# # fido.methods
+
+class Dog
+
+    def bark
+        puts "Woof!"
+    end
+
+    def sit
+        puts "The Dog is sitting"
+    end
+end
+
+fido = Dog.new
+fido.bark
+fido.sit
+
+snoopy = Dog.new
+snoopy.bark
+snoopy.sit
